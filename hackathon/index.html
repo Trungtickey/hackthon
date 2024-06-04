@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="scoreBoard">
+        <div class="header">
+          <div class="text1">Players: 1 | Total Points: 0</div>
+          <div class="text2">Bảng điểm</div>
+        </div>
+        <div class="player">
+          <span class="player-name">Player 1</span>
+          <div class="player-score">
+            <button class="score-button add">+</button>
+            <span>0</span>
+            <button class="score-button subtract">-</button>
+          </div>
+        </div>
+        <!-- <div class="player">
+            <span class="player-name">Player 2</span>
+            <div class="player-score">
+              <button class="score-button add">+</button>
+              <span>0</span>
+              <button class="score-button subtract">-</button>
+            </div>
+          </div>
+          <div class="player">
+            <span class="player-name">Player 3</span>
+            <div class="player-score">
+              <button class="score-button add">+</button>
+              <span>0</span>
+              <button class="score-button subtract">-</button>
+            </div> 
+          </div> -->
+        <!-- thêm các người chơi khác -->
+        <form class="add-player-form">
+          <input type="text" class="add-player-input" placeholder="Enter a player's name">
+          <button type="button" class="add-player-button">ADD PLAYER</button>
+        </form>
+      </div>
+    <script src="/dist/index.js"></script>
+</body>
+</html>
